@@ -1,0 +1,14 @@
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+.container-dark{
+    background-color: black;
+    color: white;
+}
+
+.container-loght{
+    background-color: white;
+    color: black;
+}
