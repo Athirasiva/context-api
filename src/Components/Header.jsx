@@ -17,8 +17,14 @@ function Header() {
             <Link to={'./about'} style={{textDecoration:'none',color:'white'}} className='me-3'>About Us</Link>
             <Link to={'./contact'} style={{textDecoration:'none',color:'white'}}>Contact Us</Link>
           </Nav>
-          <Button variant="primary" onClick={toggleDarkmode}>{darkMode ?'Light mode ' : 'Dark mode'}</Button>
-        </Container>
+          {/* <Button variant="primary" onClick={toggleDarkmode}>{darkMode ?'Light mode ' : 'Dark mode'}</Button> */}
+          {darkMode ?
+                    <Button onClick={toggleDarkmode}><i class="fa-solid fa-sun"></i></Button> 
+                    :
+                    <Button onClick={toggleDarkmode}><i class="fa-solid fa-moon"></i></Button>
+
+          }
+                  </Container>
       </Navbar>
   </div>
   )
