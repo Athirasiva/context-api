@@ -1,15 +1,16 @@
-.container {
+.box {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100vw;
 }
 
-.container-dark{
+.box-dark{
     background-color: black;
     color: white;
 }
 
-.container-loght{
+.box-light{
     background-color: white;
     color: black;
 }
